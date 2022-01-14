@@ -193,3 +193,114 @@ body
         margin-top: 1rem
         font-size: 14px
                 
+// SA L FAC RESPONSIVE
+
+@media (max-width: 955px)
+    body
+        .principal-main
+            .cards-section
+                .card
+                    flex-direction: column-reverse
+                    height: auto
+                    padding: 2rem
+                    text-align: center
+                    .text-section
+                        margin: 2rem 0
+                        width: auto
+                        h2
+                            margin-bottom: 1rem
+                    .image-section
+                        height: 300px
+
+@media (max-width: 850px)
+    body
+        .principal-header
+            height: auto
+            background: url("../images/bg-hero-mobile.svg"), $very-pale-cyan
+            .upper-section
+            .lower-section
+                flex-direction: column
+                text-align: center
+                .text-section
+                    margin-bottom: 2rem
+        .principal-main
+            .box
+                width: 80%
+                font-size: 1.25rem
+        .principal-footer
+            .upper-section
+                flex-direction: column
+                align-items: initial
+            .social-media
+                margin: auto
+            .lower-section
+                text-align: center
+
+@media (max-width: 620px)
+    body
+        .principal-main
+            .cards-section
+                .card
+                    .image-section
+                        height: 200px
+            .box
+                h3
+                    font-size: 1.1rem
+                .cta
+                    font-size: 1rem
+                    padding: .5rem 2rem
+
+@media (max-width: 560px)
+    body
+        .principal-header
+            .upper-section
+                flex-direction: column
+                a
+                    margin-top: 1rem
+            .lower-section
+                .text-section
+                    width: auto
+
+@media (max-width: 450px)
+    body
+        .principal-main
+            .cards-section
+                .card
+                    .image-section
+                        height: 150px
+            .box
+                padding: 1rem 0
+                h3
+                    font-size: .9rem
+                .cta
+                    font-size: .8rem
+        .principal-footer
+            .upper-section
+                .informations
+                    width: auto
+
+@media (max-width: 300px)
+    body
+        .attribution
+            font-size: 14px
+        .principal-header
+            .lower-section
+                .text-section
+                    .cta
+                        font-weight: 400
+                .image-section
+                    img
+                        width: 200px
+        .principal-main
+            .cards-section
+                .card
+                    width: 80%
+                    margin: 2rem auto
+                    .image-section
+                        height: 100px
+        .principal-footer
+            .upper-section
+                .informations
+                    .logo
+                        img
+                            width: 200px
